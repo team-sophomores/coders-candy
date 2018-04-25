@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+#logo{
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/* div{
+    border: solid 1px black;
+} */
+
+.logo-div{
+    border-bottom: Solid 3px #BFBDC1
+}
+
+.nav-bar{
+    color: #6D6A75
+}
+
+.nav-bar > .col-2{
+    padding-left: 5vw;
+}
+
+.search-box input{
+    width: -webkit-fill-available;
+    color: white
+}
+
+.card-box .btn{
+    width: 90%;
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+    
+}
+
+.card-box>.col-3{
+    margin-top: 20px
+}
+
+.card-box .card{
+    width:230px; 
+    height:260px
+}
+
+.header{
+
+}
