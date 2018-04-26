@@ -2,8 +2,9 @@
 
 ## Latest Log
 
-1. Login Page added (Static).
-2. Please check whether Mongodb is integrated properly or not.
+1. Home Page added (Static).
+2. Login Page added (Static).
+3. Please check whether Mongodb is integrated properly or not.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
