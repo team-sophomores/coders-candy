@@ -1,8 +1,9 @@
 let users = []
 
-$.get('/users', (object) => {
+$.get('/api/users', (object) => {
     users = object.data;
-    done();
+    console.log(users);
+    
 })
-
+console.log(users);
 console.log("The users are: " + users);
