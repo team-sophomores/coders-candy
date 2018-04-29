@@ -23,17 +23,23 @@
       <!-- <div class="col"></div> -->
     </div>
 
-    <div class="row card-box ml-5">
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Problem 1</h3>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec urna ante, convallis eget blandit at, pulvinar in arcu. Nulla
-            facilisi.
-            <button class="btn">Solve</button>
+    <div class="row card-box ml-5" id="problem_container">
+
+      <script id="problem_template" type="text/x-handlebars-template">
+        {{#each users}}
+          <div class="col-3">
+            <div class="card">
+              <div class="card-body">
+                <h3>{{name}}</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec urna ante, convallis eget blandit at, pulvinar in arcu. Nulla
+                facilisi.
+                <button class="btn">Solve</button>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        {{/each}}
+      </script>
+
       <div class="col-3">
         <div class="card">
           <div class="card-body">
@@ -232,6 +238,7 @@
     crossorigin="anonymous"></script>
   <script src="./js/jquery-3.3.1.js"></script>
   <script src="./js/ProblemSetter.js"></script>
+  <script src="./js/handlebars-v4.0.11.js"></script>
   <!-- <app-root></app-root> -->
 </body>
 </html>
