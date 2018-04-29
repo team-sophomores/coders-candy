@@ -26,159 +26,18 @@
     <div class="row card-box ml-5" id="problem_container">
 
       <script id="problem_template" type="text/x-handlebars-template">
-        {{#each users}}
+        {{#each problems}}
           <div class="col-3">
             <div class="card">
               <div class="card-body">
-                <h3>{{name}}</h3>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec urna ante, convallis eget blandit at, pulvinar in arcu. Nulla
-                facilisi.
+                <h3>{{title}}</h3>
+                {{statement}}
                 <button class="btn">Solve</button>
               </div>
             </div>
           </div>
         {{/each}}
-      </script>
-
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Problem 2</h3>
-            Pellentesque in neque semper, tempor nisi vitae, ullamcorper nisi. Quisque varius a mi eget mollis. Morbi finibus ultrices
-            purus id ullamcorper.
-    
-            <button class="btn">Solve</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Problem 3</h3>
-            Aenean aliquet finibus augue, quis egestas tortor blandit at. Aenean bibendum semper nisl, id finibus neque pharetra at.
-    
-            <button class="btn">Solve</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Problem 4</h3>
-            Ut ornare risus sapien, id molestie risus efficitur semper. Morbi lorem est, commodo vitae elementum at, sodales ut elit.
-            <button class="btn">Solve</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Problem n</h>
-    
-              <button class="btn">Solve</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Problem n</h3>
-    
-            <button class="btn">Solve</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Problem n</h3>
-    
-            <button class="btn">Solve</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Problem n</h3>
-    
-            <button class="btn">Solve</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Problem n</h3>
-    
-            <button class="btn">Solve</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Problem n</h3>
-    
-            <button class="btn">Solve</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Problem n</h3>
-    
-            <button class="btn">Solve</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Problem n</h3>
-    
-            <button class="btn">Solve</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Problem n</h3>
-    
-            <button class="btn">Solve</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Problem n</h3>
-    
-            <button class="btn">Solve</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Problem n</h3>
-    
-            <button class="btn">Solve</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Problem n</h3>
-    
-            <button class="btn">Solve</button>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="col"></div> -->
+        </script>
     </div>
 
     <!--Footer-->
