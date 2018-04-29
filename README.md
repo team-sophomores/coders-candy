@@ -2,7 +2,7 @@
 
 ## Latest Log
 
-1. Home Page added (Static).
+1. Home Page is now Dynamic with data coming directly from MongoDB.
 2. Login Page added (Static).
 3. MongoDB working fine!!
 
