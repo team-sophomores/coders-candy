@@ -4,7 +4,7 @@ $.get('/api/problems', (object) => {
     obj = {
         problems: object.data,
     }
-        
+
     createHTML(obj);
 })
 
