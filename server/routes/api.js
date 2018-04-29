@@ -5,10 +5,10 @@ const ObjectID = require('mongodb').ObjectID;
 
 // Connect
 const connection = (closure) => {
-    return MongoClient.connect('mongodb://localhost:27017/users', (err, client) => {
+    return MongoClient.connect('mongodb://localhost:27017/problemDB', (err, client) => {
         if (err) return console.log(err);
 
-        let db = client.db('users');
+        let db = client.db('problemDB');
         closure(db);
     });
 };
@@ -28,9 +28,9 @@ let response = {
 };
 
 // Get users
-router.get('/users', (req, res) => {
+router.get('/problems', (req, res) => {
     connection((db) => {
-        db.collection('users')
+        db.collection('problemDB')
             .find()
             .toArray() 
             .then((users) => {

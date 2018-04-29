@@ -1,16 +1,17 @@
 let users = []
 
-$.get('/api/users', (object) => {
+$.get('/api/problems', (object) => {
     obj = {
-        users: object.data,
+        problems: object.data,
     }
+        
     createHTML(obj);
 })
 
-function createHTML(users) {
+function createHTML(problems) {
     var rawTemplate = document.getElementById("problem_template").innerHTML;
     var compiledTemplate = Handlebars.compile(rawTemplate);
-    var GeneratedHTML = compiledTemplate(users);
+    var GeneratedHTML = compiledTemplate(problems);
 
     var container = document.getElementById("problem_container");
     container.innerHTML = GeneratedHTML;
