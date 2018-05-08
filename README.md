@@ -1,5 +1,7 @@
 # CodersCandy
 
+[![first-timers-only](http://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](http://www.firsttimersonly.com/)
+
 ## Latest Log
 
 1. Home Page is now Dynamic with data coming directly from MongoDB.
